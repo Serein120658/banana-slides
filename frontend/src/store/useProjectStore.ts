@@ -863,6 +863,25 @@ const debouncedUpdatePage = debounce(
           // 继续轮询，同时同步项目数据以更新页面状态
           console.log(`[批量轮询] Task ${taskId} 处理中，同步项目数据...`);
           await get().syncProject();
+
+          // 逐个释放已完成的页面，让缩略图立刻显示
+          const { currentProject: proj, pageGeneratingTasks: pgt } = get();
+          if (proj) {
+            const updated = { ...pgt };
+            let changed = false;
+            pageIds.forEach(id => {
+              if (updated[id] === taskId) {
+                const page = proj.pages.find(p => p.id === id);
+                // 后端完成后 status 从 GENERATING → COMPLETED
+                if (page && page.status !== 'GENERATING') {
+                  delete updated[id];
+                  changed = true;
+                }
+              }
+            });
+            if (changed) set({ pageGeneratingTasks: updated });
+          }
+
           console.log(`[批量轮询] Task ${taskId} 处理中，2秒后继续轮询...`);
           setTimeout(poll, 2000);
         } else {
