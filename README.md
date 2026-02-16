@@ -582,6 +582,30 @@ banana-slides/
 [Pull Request](https://github.com/Anionex/banana-slides/pulls)
 为本项目贡献力量！
 
+## 📄 许可证
+
+本项目采用 **GNU Affero General Public License v3.0（AGPL-3.0）** 开源，
+可自由用于个人学习、研究、试验、教育或非营利科研活动等非商业用途；
+<details> 
+<summary> 详情 </summary>
+需要商业许可证（Commercial License）（例如：希望闭源使用、私有化部署交付、将本项目集成进闭源产品，或在不公开对应源代码的前提下提供服务），请联系作者：anionex@qq.com
+
+ **商业使用**包括但不限于以下场景：
+
+1. 企业或机构内部使用：
+
+2. 对外服务：
+
+3. 其他营利目的使用：
+
+**非商业使用示例**：
+
+- 个人学习、研究、试验、教育或非营利科研活动；
+- 开源社区贡献、个人作品展示等不产生经济收益的用途。
+</details>
+
+- 联系方式：`你的邮箱`
+-（可选）表单/预约：`你的链接`
 
 <h2>🚀 Sponsor / 赞助 </h2>
 <br>
