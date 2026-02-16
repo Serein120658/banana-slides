@@ -12,10 +12,12 @@
 [![GitHub Forks](https://img.shields.io/github/forks/Anionex/banana-slides?style=square)](https://github.com/Anionex/banana-slides/network)
 [![GitHub Watchers](https://img.shields.io/github/watchers/Anionex/banana-slides?style=square)](https://github.com/Anionex/banana-slides/watchers)
 
-[![Version](https://img.shields.io/badge/version-v0.3.0-4CAF50.svg)](https://github.com/Anionex/banana-slides)
+[![Version](https://img.shields.io/badge/version-v0.4.0-4CAF50.svg)](https://github.com/Anionex/banana-slides)
 ![Docker](https://img.shields.io/badge/Docker-Build-2496ED?logo=docker&logoColor=white)
-[![GitHub issues](https://img.shields.io/github/issues-raw/Anionex/banana-slides)](https://github.com/Anionex/banana-slides/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Anionex/banana-slides)](https://github.com/Anionex/banana-slides/pulls)
+[![License](https://img.shields.io/github/license/Anionex/banana-slides)](https://github.com/Anionex/banana-slides/blob/main/LICENSE)
+
+
+
 
 
 </p> 
@@ -142,7 +144,7 @@
     * 修复导出相关 500、参考文件关联时序、outline/page 数据错位、任务轮询错误项目、描述生成无限轮询、图片预览内存泄漏、批量删除部分失败处理。
     * 优化格式示例提示、HTTP 错误提示文案、Modal 关闭体验、清理旧项目 localStorage、移除首次创建项目冗余提示。
     * 若干其他优化和修复
-- 【1-4】 : v0.3.0发布：可编辑pptx导出全面升级：
+- 【1-4】 : v0.4.0发布：可编辑pptx导出全面升级：
   * 支持最大程度还原图片中文字的字号、颜色、加粗等样式；
   * 支持了识别表格中的文字内容；
   * 更精确的文字大小和文字位置还原逻辑
